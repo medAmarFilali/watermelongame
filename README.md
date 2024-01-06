@@ -1,5 +1,9 @@
 # Watermelon Game
 
+## Demo
+
+You can check out the live demo of the game [here](https://watermelongame-theta.vercel.app/).
+
 ## Description
 
 This project is a fun and interactive game built with React, Next.js, and Matter.js. The game involves different types of fruits, including watermelons, and the main objective is to interact with these fruits in a physics-based environment.

@@ -68,7 +68,7 @@ export default function Home() {
         const newBall = Bodies.circle(x, y, selectedFruit.size, {
           mass: 1,
           restitution: 0.2,
-          friction: 0.0005,
+          friction: 0.5,
           label: selectedFruit.name,
           render: {
             fillStyle: selectedFruit.color,
@@ -106,7 +106,7 @@ export default function Home() {
         {
           mass: 1,
           restitution: 0.2,
-          friction: 0.0005,
+          friction: 0.5,
           label: selectedFruit.name,
           render: {
             fillStyle: selectedFruit.color,
@@ -154,6 +154,7 @@ export default function Home() {
         wireframes: false,
         background: "transparent",
         showAngleIndicator: true,
+        showCollisions: true,
       },
     });
 
